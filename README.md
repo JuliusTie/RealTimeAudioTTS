@@ -13,7 +13,7 @@ This Python script provides an automated solution to convert text input into spe
 - `requests`: Used to send API requests to ElevenLabs for text-to-speech conversion.
 - `threading`: Manages background monitoring of the folder for new audio files.
 
-### Installation
+## Installation
 
 1. Install the required libraries using `pip`:
 
@@ -23,11 +23,11 @@ pip install pyaudio pydub requests
 
 2. Ensure you have VB-CABLE installed and set up on your system.
 
-### Global Variables
+## Global Variables
 - `AUDIO_FOLDER`: Path to the folder where audio files will be saved. If the folder does not exist, it is automatically created.
   
 
-### Usage
+## Usage
 
 1. **Text Input**: The user enters text into the console, and the script generates an MP3 file with the spoken version of the text.
 2. **Playback**: The generated audio file is played automatically through VB-CABLE.
